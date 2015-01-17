@@ -1,0 +1,20 @@
+{
+  "name": "jquery-unveiled-navigation",
+  "version": "0.1.0",
+  "homepage": "https://github.com/weaintplastic/jquery-unveiled-navigation",
+  "authors": [
+    "Roland Loesslein <info@weaintplastic.com"
+  ],
+  "description": "A jQuery plugin for unveiled sticky navigations",
+  "keywords": [
+    "jquery", "navigation", "unveil"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
