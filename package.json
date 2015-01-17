@@ -1,0 +1,32 @@
+{
+  "name": "jquery-unveiled-navigation",
+  "version": "0.1.0",
+  "description": "A jQuery plugin for unveiled sticky navigations",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weaintplastic/jquery-unveiled-navigation.git"
+  },
+  "keywords": [
+    "jquery",
+    "navigation",
+    "unveil"
+  ],
+  "author": "Roland Loesslein <info@weaintplastic.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weaintplastic/jquery-unveiled-navigation/issues"
+  },
+  "homepage": "https://github.com/weaintplastic/jquery-unveiled-navigation",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-sass": "^1.3.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.2",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-notify": "^2.1.0"
+  }
+}
