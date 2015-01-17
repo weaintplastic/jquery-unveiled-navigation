@@ -1,6 +1,8 @@
 # Unveiled Navigation
 
-This plugin helps you to create sticky unveiled navigations for you website project. Read more about my intentions here: 
+This plugin helps you to create sticky unveiled navigations as seen on [medium.com](http://medium.com). Read more about my intentions here: https://medium.com/@weaintplastic/2108f9a53631
+
+Please find an example over at Codepen: http://codepen.io/weaintplastic/full/RNpXOO/
 
 ### Features
 
