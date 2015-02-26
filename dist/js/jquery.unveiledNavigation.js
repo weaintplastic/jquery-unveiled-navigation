@@ -91,7 +91,7 @@
             }
 
             // Show when scrolled to the very bottom
-            if(newScrollTop == $(document).height() - $(window).height()){
+            if(newScrollTop == $(document).height() - $(window).height() && opts.unveilAtBottom){
                 that.unveil();
             }
 
@@ -143,7 +143,8 @@
         topClass:       'at-top',   // Class that will be added when at the top
         timeout:        300,        // Timeout before the navigation gets unveiled on scroll stop
         easing:         'swing',    // Esing function that is used for automatical unveiling/hiding
-        duration:       500         // Duration of the automatic unveiling/hiding
+        duration:       500,         // Duration of the automatic unveiling/hiding
+        unveilAtBottom: true        // Should the navigation be unveiled automatically when reacing the bottom of the page?
     };
 
 })(jQuery);
