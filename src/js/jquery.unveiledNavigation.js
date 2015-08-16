@@ -90,6 +90,10 @@
                 unveilTimeout = setTimeout(that.unveil, opts.timeout)
             }
 
+            $this.removeClass(opts.upClass).removeClass(opts.downClass);
+            var directionClass = scrollDirection > 0 ? opts.upClass : opts.downClass;
+            $this.addClass(directionClass)
+
             // Show when scrolled to the very bottom
             if(newScrollTop == $(document).height() - $(window).height() && opts.unveilAtBottom){
                 that.unveil();
@@ -141,6 +145,8 @@
         offset:         0,          // Offset in px for unveiling
         acceleration:   1,          // Acceleration of unveiling/hiding
         topClass:       'at-top',   // Class that will be added when at the top
+        upClass:       '',   // Class that will be added when last scroll movement was upwards
+        downClass:       '',   // Class that will be added when last scroll movement was downwards
         timeout:        300,        // Timeout before the navigation gets unveiled on scroll stop
         easing:         'swing',    // Esing function that is used for automatical unveiling/hiding
         duration:       500,         // Duration of the automatic unveiling/hiding
