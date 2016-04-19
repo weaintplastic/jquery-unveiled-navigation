@@ -35,13 +35,15 @@ Please find an example over at Codepen: http://codepen.io/weaintplastic/full/RNp
 
 ### API
 
-You can use the following functions 
+You can use the following functions
 
     $('.unveiled-navigation').data('unveiledNavigation').functionName()
 
 
-    unveil()        // Call this funciton to unveil the navigation
+    unveil()        // Call this function to unveil the navigation
     cover()         // Call this function to cover the navigation
+    disable()       // Call this function to disable the functionality and show the navigation
+    enable()        // Call this function to re-enable the functionality
 
 
 ### Support, Bugs and Feature Requests
