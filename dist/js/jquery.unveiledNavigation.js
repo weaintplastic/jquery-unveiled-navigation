@@ -29,7 +29,6 @@
             onWindowScroll();
         };
 
-
         /**
          * unveil
          * Unveils the navigation
@@ -64,7 +63,26 @@
                     duration: opts.duration
                 }
             );
-        }
+        };
+
+        /**
+         * disable
+         * Disables the unveil functionality and shows navigation
+         **/
+        this.disable = function(){
+            $(window).unbind('scroll', onWindowScroll);
+
+            $this.css({top: 0});
+        };
+
+        /**
+         * enable
+         * Enables the unveil functionality and shows navigation
+         **/
+        this.enable = function(){
+            this.disable();
+            init();
+        };
 
         /********************************/
         /* EVENT HANDLING               */
